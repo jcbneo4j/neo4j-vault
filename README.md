@@ -60,4 +60,5 @@ existing unseal keys shares. See "vault operator rekey" for more information.
     neo4j`
 
 ## run vault neo4j utility. will prompt for current neo4j password (e.g. password) and will update to password in vault secret:
-`python3 vault.py`
+`python3 neo4j-vault.py`
+Note: update the hard-coded vault token in the module.
