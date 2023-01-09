@@ -36,7 +36,9 @@ existing unseal keys shares. See "vault operator rekey" for more information.
 
 ## perform unseal operation on vault with 3 of the 5 tokens
 `vault operator unseal Y254MZgCWnK9f6d7N12RTTXp69LgtuG/m5SOyM4vppl8`
+
 `vault operator unseal nMV+EzPrURZ/6FK22hSm9siK1peu9GVRlUMmsY44ZtA5`
+
 `vault operator unseal duWWSBTF36ZqVVEljEv+sz5PK+vcVXyibMh0F8fd311U`
 
 ## check vault status
