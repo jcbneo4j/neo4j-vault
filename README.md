@@ -56,6 +56,6 @@ existing unseal keys shares. See "vault operator rekey" for more information.
 ## start up neo4j docker container
 `docker run --publish=7474:7474 --publish=7687:7687 neo4j`
 
-## run vault neo4j utility. will prompt for current neo4j password (e.g. password) and will update to password in vault secret:
+## run vault neo4j utility. will prompt for current neo4j password (e.g. 'neo4j') and will update to password in vault secret:
 `python3 neo4j-vault.py`
 Note: update the hard-coded vault token in the module.
