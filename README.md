@@ -12,7 +12,8 @@ The following tool shows how to start up vault, add a secret, spin up neo4j and 
 
 ## Next, initialize Vault and copy keys and root token
 
-vault % vault operator init -key-shares=6 -key-threshold=3
+`vault operator init -key-shares=6 -key-threshold=3`
+
 Unseal Key 1: cxMGksQLpvRPVaztgKvI1gurekNSmlsLenNZzdOmYZTs
 Unseal Key 2: Y254MZgCWnK9f6d7N12RTTXp69LgtuG/m5SOyM4vppl8
 Unseal Key 3: bKUrg4rIi75WSFH5ergBROZJ5mbNvdPKWqXBfafGwvA4
