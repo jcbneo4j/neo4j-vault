@@ -1,3 +1,5 @@
 # neo4j-vault
 
-###test
+## start up vault docker-compose
+
+`docker compose up`
